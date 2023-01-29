@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Clima</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/images/Favicon.png">
+
+    <!-- Font Awesome -->
+    <script src="assets/libraries/FontAwesome.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="search-box">
+
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Ingrese su ubicacion">
+            <button class="fa-solid fa-magnifying-glass"></button>
+
+        </div>
+
+        <div class="not-found">
+
+            <img src="assets/images/error.gif">
+
+            <p>Oh no! Ubicacion Invalida :(</p>
+
+        </div>
+
+        <div class="weather-box">
+
+            <img src="assets/images/sun.png">
+            <p class="temperature"> 22 <span>°C</span> </p>
+            <p class="description">Cielo Despejado</p>
+
+        </div>
+
+        <div class="weather-details">
+
+            <div class="humidity">
+
+                <i class="fa-solid fa-water"></i>
+
+                <div class="text">
+
+                    <span>50%</span>
+
+                    <p>Humedad</p>
+
+                </div>
+
+            </div>
+
+            <div class="wind">
+
+                <i class="fa-solid fa-wind"></i>
+
+                <div class="text">
+
+                    <span>5 Km/h</span>
+
+                    <p>Velocidad del viento</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
