@@ -28,7 +28,7 @@ function busqueda() {
 
             if (json.cod === '404') {
 
-                container.style.height = '400px';
+                container.style.height = '455px';
 
                 weatherBox.style.display = 'none';
                 weatherDetails.style.display = 'none';
